@@ -1,5 +1,5 @@
-const matrix = require("@matrix-io/matrix-lite");
-const { anterior, siguiente, frente, modColor } = require('./leds.utils');
+// const matrix = require("@matrix-io/matrix-lite");
+// const { anterior, siguiente, frente, modColor } = require('./leds.utils');
 
 const anger = (obj) => {
     let izq = anterior(obj.led1);

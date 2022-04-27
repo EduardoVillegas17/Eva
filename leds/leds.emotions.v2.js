@@ -1,5 +1,5 @@
-const matrix = require("@matrix-io/matrix-lite");
-const { siguiente, gradient } = require('./leds.utils');
+// const matrix = require("@matrix-io/matrix-lite");
+// const { siguiente, gradient } = require('./leds.utils');
 
 const emocionv2 = (obj) => {
     let everloop = new Array(matrix.led.length).fill('#000000');
